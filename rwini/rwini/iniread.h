@@ -1,12 +1,12 @@
 #pragma once
 
-class CiniRead
+class CReadIni
 {
 public:
 	/**
 	*       \brief Constructor
 	*/
-	CiniRead(char* szFileName);
+	CReadIni(char* szFileName);
 
 	/**
 	*       \dispaly name
@@ -22,6 +22,7 @@ public:
 	*       \display height
 	*/
 	float ReadFloat(char* szSection, char* szKey, float fltDefaultValue);
+
 private:
 	char m_szFileName[255];
 };

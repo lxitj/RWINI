@@ -1,12 +1,12 @@
 #pragma once
 
-class CiniWrite
+class CWriteIni
 {
 public:
 	/**
 	*     \brief Constructor
 	*/
-	CiniWrite(char* szFileName);
+	CWriteIni(char* szFileName);
 
 	/**
 	*     \record name
