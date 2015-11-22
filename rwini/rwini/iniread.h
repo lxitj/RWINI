@@ -1,3 +1,9 @@
+/*********************************
+* @file rwini.c
+* @author lxitj
+* @data 2015-11-22
+* @brief write and read .ini
+**********************************/
 #pragma once
 
 class CReadIni
